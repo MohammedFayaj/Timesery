@@ -7,13 +7,12 @@
     android:layout_height="wrap_content"
     android:theme="@style/MyCardView"
     card_view:cardBackgroundColor="@color/card_color">
-
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/card_view"
+        android:layout_below="@+id/food_type"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="16dp">
-
 
         <android.support.v7.widget.AppCompatSpinner
             android:id="@+id/food_type"

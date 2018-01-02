@@ -2,7 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ln.designdemo">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
+        android:name="com.example.uzumaki.timeser.FoodApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_logo"
         android:label="@string/app_name"
@@ -34,6 +36,11 @@
             android:theme="@style/NoActionBar">
         </activity>
         <activity android:name="com.example.uzumaki.timeser.home.HomeActivity"
+            android:screenOrientation="portrait"
+           >
+
+        </activity>
+        <activity android:name="com.example.uzumaki.timeser.food.FoodListActivity"
             android:screenOrientation="portrait"
             android:theme="@style/NoActionBar">
 
