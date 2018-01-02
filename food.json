@@ -1,0 +1,57 @@
+ {
+ 	"food": [{
+ 			"id": 0,
+ 			"name": "Pizza",
+ 			"image": "http://www.carlogos.org/logo/Ford-logo-2003-1366x768.png",
+ 			"timing": "30"
+ 		},
+ 		{
+ 			"id": 1,
+ 			"name": "Lasagne",
+ 			"image": "http://www.carlogos.org/logo/Ford-logo-2003-1366x768.png",
+ 			"timing": "40"
+ 		},
+ 		{
+ 			"id": 2,
+ 			"name": "Chips",
+ 			"image": "http://www.carlogos.org/logo/Ford-logo-2003-1366x768.png",
+ 			"timing": "10"
+ 		},
+ 		{
+ 			"id": 3,
+ 			"name": "Pizza",
+ 			"image": "http://www.carlogos.org/logo/Ford-logo-2003-1366x768.png",
+ 			"timing": "20"
+ 		},
+ 		{
+ 			"id": 4,
+ 			"name": "Lasagne",
+ 			"image": "http://www.carlogos.org/logo/Ford-logo-2003-1366x768.png",
+ 			"timing": "40"
+ 		},
+ 		{
+ 			"id": 5,
+ 			"name": "Chips",
+ 			"image": "http://www.carlogos.org/logo/Ford-logo-2003-1366x768.png",
+ 			"timing": "15"
+ 		},
+ 		{
+ 			"id": 6,
+ 			"name": "Pizza",
+ 			"image": "http://www.carlogos.org/logo/Ford-logo-2003-1366x768.png",
+ 			"timing": "35"
+ 		},
+ 		{
+ 			"id": 7,
+ 			"name": "Lasagne",
+ 			"image": "http://www.carlogos.org/logo/Ford-logo-2003-1366x768.png",
+ 			"timing": "45"
+ 		},
+ 		{
+ 			"id": 8,
+ 			"name": "Chips",
+ 			"image": "http://www.carlogos.org/logo/Ford-logo-2003-1366x768.png",
+ 			"timing": "15"
+ 		}
+ 	]
+ }
