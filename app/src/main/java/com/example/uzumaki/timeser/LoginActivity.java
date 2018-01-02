@@ -13,9 +13,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.example.uzumaki.timeser.home.HomeActivity;
+
 import ln.designdemo.R;
 
-public class MainActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     private UserLoginTask mAuthTask = null;
     // UI references.
@@ -104,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
             // perform the user login attempt.
             showProgress(true);
             mAuthTask = new UserLoginTask(name,email, password);
-            Intent intent = new Intent(MainActivity.this, HomeActivity.class);
+            Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
             startActivity(intent);
         }
     }

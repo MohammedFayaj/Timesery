@@ -16,6 +16,15 @@
     <string name="timerVal">00:00:00</string>
     <string name="startButton">Start</string>
     <string name="pauseButton">Pause</string>
-
     <string name="resetButton">Reset</string>
+    <string name="search_food_text">Search Food</string>
+    <string name="food_timing">Timing</string>
+    <string name="cars_heaer">Search Car</string>
+
+    <!-- Strings related to Signout -->
+    <string name="alert_title">SignOut</string>
+    <string name="food_details">Food Details</string>
+    <string name="alert_msg">Are you sure you want to sign out?</string>
+    <string name="negative_btn">No</string>
+    <string name="positive_btn">Yes</string>
 </resources>

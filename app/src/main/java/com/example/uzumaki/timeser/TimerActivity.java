@@ -10,7 +10,8 @@ import android.widget.TextView;
 
 import ln.designdemo.R;
 
-public class HomeActivity extends AppCompatActivity {
+
+public class TimerActivity extends AppCompatActivity {
     private Button startButton;
     private Button pauseButton;
     private Button resetButton;

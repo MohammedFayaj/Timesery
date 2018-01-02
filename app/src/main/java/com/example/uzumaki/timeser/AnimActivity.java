@@ -40,7 +40,7 @@ public class AnimActivity extends AppCompatActivity implements Animation.Animati
     @Override
     public void onAnimationEnd(Animation animation) {
 
-        startActivity(new Intent(AnimActivity.this,MainActivity.class));
+        startActivity(new Intent(AnimActivity.this,LoginActivity.class));
 
     }
 
