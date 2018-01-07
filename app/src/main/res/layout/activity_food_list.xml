@@ -6,30 +6,107 @@
     android:orientation="vertical"
     tools:context="com.example.uzumaki.timeser.food.FoodListActivity">
 
-    <android.support.v7.widget.Toolbar
-        xmlns:android="http://schemas.android.com/apk/res/android"
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
         android:minHeight="?attr/actionBarSize"
-        app:theme="@style/ToolBarStyle"
-        android:background="@color/colorPrimary" />
+        app:theme="@style/ToolBarStyle" />
 
 
-    <android.support.v7.widget.RecyclerView
-
-        android:id="@+id/food_list"
+    <LinearLayout
+        android:id="@+id/food_list_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+
+            android:id="@+id/food_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:background="@color/red"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_timer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white_color"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                tools:text="Timer"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/start_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_weight="0.33"
+
+                    android:text="@string/startButton" />
+
+                <Button
+
+                    android:id="@+id/pause_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/startButton"
+                    android:layout_alignBottom="@+id/startButton"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_weight="0.33"
+
+                    android:text="@string/pauseButton" />
+                <Button
+
+                    android:id="@+id/resume_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/startButton"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="0.33"
+
+                    android:text="Resume" />
+                <Button
+
+                    android:id="@+id/reset_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/startButton"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="0.33"
+
+                    android:text="Cancel" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
     <TextView
-        android:visibility="gone"
         android:id="@+id/error"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:gravity="center"
+        android:text="No matching found"
         android:textAllCaps="true"
         android:textSize="20sp"
-        android:text="No matching found"/>
+        android:visibility="gone" />
 </LinearLayout>
