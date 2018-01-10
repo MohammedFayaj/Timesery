@@ -8,7 +8,7 @@
  		{
  			"id": 1,
  			"name": "Lasagne",
- 			"image": "https://image.shutterstock.com/z/stock-photo-british-traditional-fish-and-chips-with-mashed-peas-tartar-sauce-on-crumpled-paper-622291619.jpg",
+ 			"image": "https://www.shutterstock.com/image-photo/serving-spicy-traditional-italian-beef-lasagne-362034773?src=Ur0o86qlAfL9KZqp2Naxkw-1-0",
  			"timing": "30"
  		},
  		{
@@ -26,7 +26,7 @@
  		{
  			"id": 4,
  			"name": "Lasagne",
- 			"image": "https://image.shutterstock.com/z/stock-photo-british-traditional-fish-and-chips-with-mashed-peas-tartar-sauce-on-crumpled-paper-622291619.jpg",
+ 			"image": "https://www.shutterstock.com/image-photo/serving-spicy-traditional-italian-beef-lasagne-362034773?src=Ur0o86qlAfL9KZqp2Naxkw-1-0",
  			"timing": "20"
  		},
  		{
@@ -44,7 +44,7 @@
  		{
  			"id": 7,
  			"name": "Lasagne",
- 			"image": "https://image.shutterstock.com/z/stock-photo-british-traditional-fish-and-chips-with-mashed-peas-tartar-sauce-on-crumpled-paper-622291619.jpg",
+ 			"image": "https://www.shutterstock.com/image-photo/serving-spicy-traditional-italian-beef-lasagne-362034773?src=Ur0o86qlAfL9KZqp2Naxkw-1-0",
  			"timing": "10"
  		},
  		{
@@ -52,6 +52,60 @@
  			"name": "Chips",
  			"image": "https://image.shutterstock.com/z/stock-photo-potato-chips-isolated-white-background-737371258.jpg",
  			"timing": "30"
+ 		},
+ 		{
+ 			"id": 9,
+ 			"name": "Waffles",
+ 			"image": "https://www.shutterstock.com/image-photo/pumpkin-spicy-waffles-whipped-cream-breakfast-483633670?src=iYSl0hfBKbmwGcNQJk38ZA-1-15",
+ 			"timing": "10"
+ 		},
+ 		{
+ 			"id": 10,
+ 			"name": "Onion Rings",
+ 			"image": "https://www.shutterstock.com/image-photo/closeup-photo-pile-onion-rings-89225200?src=d83YupFtvaHzCnzdsbv0sA-1-5",
+ 			"timing": "20"
+ 		},
+ 		{
+ 			"id": 11,
+ 			"name": "French Fries",
+ 			"image": "https://www.shutterstock.com/image-photo/french-fries-background-closeup-shot-157939262?src=CRQXOZuXvRSvviQCvni-vw-1-10",
+ 			"timing": "30"
+ 		},
+ 		{
+ 			"id": 12,
+ 			"name": "Waffles",
+ 			"image": "https://www.shutterstock.com/image-photo/pumpkin-spicy-waffles-whipped-cream-breakfast-483633670?src=iYSl0hfBKbmwGcNQJk38ZA-1-15",
+ 			"timing": "20"
+ 		},
+ 		{
+ 			"id": 13,
+ 			"name": "Onion Rings",
+ 			"image": "https://www.shutterstock.com/image-photo/closeup-photo-pile-onion-rings-89225200?src=d83YupFtvaHzCnzdsbv0sA-1-5",
+ 			"timing": "30"
+ 		},
+ 		{
+ 			"id": 14,
+ 			"name": "French Fries",
+ 			"image": "https://www.shutterstock.com/image-photo/french-fries-background-closeup-shot-157939262?src=CRQXOZuXvRSvviQCvni-vw-1-10",
+ 			"timing": "10"
+ 		},
+ 		{
+ 			"id": 15,
+ 			"name": "Waffles",
+ 			"image": "https://www.shutterstock.com/image-photo/pumpkin-spicy-waffles-whipped-cream-breakfast-483633670?src=iYSl0hfBKbmwGcNQJk38ZA-1-15",
+ 			"timing": "30"
+ 		},
+ 		{
+ 			"id": 16,
+ 			"name": "Onion Rings",
+ 			"image": "https://www.shutterstock.com/image-photo/closeup-photo-pile-onion-rings-89225200?src=d83YupFtvaHzCnzdsbv0sA-1-5",
+ 			"timing": "30"
+ 		},
+ 		{
+ 			"id": 17,
+ 			"name": "French Fries",
+ 			"image": "https://www.shutterstock.com/image-photo/french-fries-background-closeup-shot-157939262?src=CRQXOZuXvRSvviQCvni-vw-1-10",
+ 			"timing": "20"
  		}
  	]
  }
